@@ -1,0 +1,15 @@
+{
+  "name": "uniapp",
+  "version": "1.0.0",
+  "description": "scraper functionality",
+  "main": "scrape.js",
+  "scripts": {
+    "test": "scrape_it"
+  },
+  "author": "thomas tixel",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "puppeteer": "^21.0.1"
+  }
+}
