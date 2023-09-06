@@ -51,9 +51,9 @@ async function main(querry, semIndex = 0, func = "grades") {
 // login to uni site function
 async function login(page) {
     await page.goto('https://www.ims.tau.ac.il/Tal/?err=timeout&mj=1');
-    await page.type('input[name=txtUser]', 'tomsoustiel', { delay: 20 })
-    await page.type('input[name=txtId]', '206712218', { delay: 20 })
-    await page.type('input[name=txtPass]', 'Lego017669541244', { delay: 20 })
+    await page.type('input[name=txtUser]', '', { delay: 20 })
+    await page.type('input[name=txtId]', '', { delay: 20 })
+    await page.type('input[name=txtPass]', '', { delay: 20 })
 
     // enter and wait for the magic to happen
     await page.keyboard.press('Enter');
